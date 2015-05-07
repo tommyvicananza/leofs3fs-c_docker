@@ -8,7 +8,7 @@ You'll need 4 environment variables:
 - AWSACCESSID
 - AWSSECRETID
 - BUCKET (bucket name you want to mount locally)
-- URL (url to your own S3 in LeoFS, don't forget it must contain http://<url>:<port>)
+- URL (url to your own S3 in LeoFS, don't forget it must contain http://url:port)
 
 #Example
 
