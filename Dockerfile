@@ -8,7 +8,6 @@ RUN \
   apt-get install -y build-essential libmount1 libblkid1 libfuse-dev fuse-utils libcurl4-openssl-dev libxml2-dev mime-support automake libtool wget tar && \
   wget https://github.com/leo-project/s3fs-c/archive/feature/ommit-iam-role.tar.gz && \
   tar xvzf ommit-iam-role.tar.gz && \
-  ls && \
 	cd s3fs-c-feature-ommit-iam-role && \
   ./configure && \
   make && \
